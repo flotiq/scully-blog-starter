@@ -1,0 +1,8 @@
+<div >
+  <h2>{{blogPost.title}}</h2>
+  <div class="headerContainer">
+    <img src="https://api.flotiq.com/image/1920x0/{{image.id}}.{{image.extension}}"
+         alt="{{blogPost.title}}" class="headerImage" *ngIf="image"/>
+  </div>
+  <div [innerHTML]="blogPost.content"></div>
+</div>
