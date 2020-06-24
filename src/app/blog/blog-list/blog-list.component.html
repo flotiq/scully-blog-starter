@@ -5,6 +5,9 @@
         <img class="card-img-top" *ngIf="images[blogPost.id]"
              src="https://api.flotiq.com/image/286x180/{{images[blogPost.id].id}}.{{images[blogPost.id].extension}}"
              alt="{{blogPost.title}}">
+        <img class="card-img-top" *ngIf="!images[blogPost.id]"
+             src="/assets/placeholder.png"
+             alt="{{blogPost.title}}"/>
         <div class="card-body">
           <h5 class="card-title">
             {{blogPost.title}}
