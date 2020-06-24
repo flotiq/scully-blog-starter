@@ -58,6 +58,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     If you wish to add new elements to the project run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
     Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    
+    To build the static version with Scully run:
+    
+    ```sh
+    nnpm run build --prod
+    npm run scully -- --scanRoutes
+    npm run scully serve
+    ```
+    
+    This will start the Scully static server on `http://localhost:1668/`
 
 1. **Manage your posts using Flotiq editor**
       
