@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {ContentBlogPostService, Blogpost, Media, ContentMediaService} from 'flotiq';
+import {ContentBlogPostService, Blogpost, Media} from 'flotiq';
 import {ActivatedRoute, Params} from '@angular/router';
 import {BlogPostService} from './blog-post.service';
 import {ImageService} from '../image.service';
@@ -27,7 +27,6 @@ export class BlogPostComponent implements OnInit {
       this.slug = params.slug;
       this.blogpostService.getBlogPost(this.slug).subscribe((blogPost) => {
         this.blogPost = blogPost.data[0];
-        console.log(blogPost);
         if (this.blogPost.headerImage && this.blogPost.headerImage[0]) {
           this.imageService.getImage(this.blogPost.headerImage[0].dataUrl.split('/')[5]).subscribe((image) => {
             this.image = image;

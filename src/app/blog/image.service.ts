@@ -14,7 +14,6 @@ export class ImageService {
   ) { }
 
   getImage(id): Observable<Media> {
-    console.log(id);
     return this.transferState.useScullyTransferState(
       id,
       this.flotiqService.getMedia(id)
