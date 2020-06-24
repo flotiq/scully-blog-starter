@@ -1,5 +1,4 @@
 import { ScullyConfig } from '@scullyio/scully';
-import { environment } from './src/environments/environment';
 export const config: ScullyConfig = {
   projectRoot: './src',
   projectName: 'scully-blog-starter',
@@ -11,7 +10,7 @@ export const config: ScullyConfig = {
         url: 'https://api.flotiq.com/api/v1/content/blogpost',
         property: 'slug',
         headers: {
-          'X-AUTH-TOKEN': environment.apiKey
+          'X-AUTH-TOKEN': 'MY_API_KEY'
         },
         resultsHandler: rawData => rawData.data
       }
@@ -22,7 +21,7 @@ export const config: ScullyConfig = {
         url: 'https://api.flotiq.com/api/v1/content/blogpost?page=1&limit=8',
         property: 'page',
         headers: {
-          'X-AUTH-TOKEN': environment.apiKey
+          'X-AUTH-TOKEN': 'MY_API_KEY'
         },
         resultsHandler: rawData => {
           const pages = [];
