@@ -1,5 +1,5 @@
 [build]
-  command = "bash ./build.sh && ng build --prod && npm run scully -- --scanRoutes"
+  command = "bash ./build.sh && ng build --prod && npm run scully"
   publish = "dist/static"
 
 [template.environment]
