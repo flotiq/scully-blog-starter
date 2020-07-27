@@ -91,7 +91,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
   You can deploy this project to Netlify in 3 minutes:
   
-  [![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/flotiq/scully-starter-blog)
+  [![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/flotiq/scully-blog-starter)
 
 
 ## Collaborating
