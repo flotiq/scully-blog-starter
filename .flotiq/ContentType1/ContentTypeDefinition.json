@@ -56,22 +56,26 @@
     ],
     "propertiesConfig": {
       "slug": {
+        "label": "Slug",
         "unique": true,
         "helpText": "",
         "inputType": "text"
       },
       "title": {
+        "label": "Title",
         "unique": false,
         "helpText": "",
         "inputType": "text",
         "isTitlePart": true
       },
       "content": {
+        "label": "Content",
         "unique": false,
         "helpText": "",
         "inputType": "richtext"
       },
       "thumbnail": {
+        "label": "Thumbnail",
         "unique": false,
         "helpText": "",
         "inputType": "datasource",
@@ -81,6 +85,7 @@
         }
       },
       "headerImage": {
+        "label": "Header image",
         "unique": false,
         "helpText": "",
         "inputType": "datasource",
