@@ -11,7 +11,7 @@ Live Demo: https://thirsty-hoover-9327b3.netlify.app/
 
 Screenshot
 
-<img src="https://github.com/flotiq/gatsby-starter-blog/raw/master/docs/flotiq-starter-blogposts.png" width=480 />
+<img src="https://github.com/flotiq/scully-blog-starter/raw/master/docs/flotiq-starter-blogposts.png" width=480 />
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
@@ -62,7 +62,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     To build the static version with Scully run:
     
     ```sh
-    nnpm run build --prod
+    npm run build --prod
     npm run scully -- --scanRoutes
     npm run scully serve
     ```
@@ -98,4 +98,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
    If you wish to talk with us about this project, feel free to hop on our [discord server](https://discord.gg/FwXcHnX).
    
-   If you found a bug, please report it in [issues](https://github.com/flotiq/scully-starter-blog/issues).
+   If you found a bug, please report it in [issues](https://github.com/flotiq/scully-blog-starter/issues).
