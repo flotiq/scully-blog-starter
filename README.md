@@ -53,7 +53,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     
     It will add 1 image and 2 blog posts to your Flotiq account.
         
-    _Note: You need to put your Read and write API key as the `flotiqApiKey` for import to work. You don't need Blog Post content type in your account. If you already have posts with ids `blogpost-1` and `blogpost-2` they will be overwritten._
+    _Note: You need to put your Read and write API key as the `flotiqApiKey` for import to work. You don't need the `Blog Post` content type in your account. If you already have posts with ids `blogpost-1` and `blogpost-2` they will be overwritten._
 
     Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
