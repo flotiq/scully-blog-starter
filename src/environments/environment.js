@@ -2,7 +2,7 @@
 
 exports.environment = {
   production: false,
-  apiKey: 'YOUR_FLOTIQ_API_KEY'
+  flotiqApiKey: 'YOUR_FLOTIQ_API_KEY'
 };
 exports.environment;
 

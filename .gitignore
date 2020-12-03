@@ -5,6 +5,8 @@
 /tmp
 /out-tsc
 /src/app/assets/scully-routes.json
+scully.log
+/.scully
 # Only exists if Bazel was run
 /bazel-out
 
