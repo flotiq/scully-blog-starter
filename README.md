@@ -35,10 +35,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     
     The next step is to configure our application to know from where it has to fetch the data.
     
-    In `src/environments/environment.prod.ts` and in `src/environments/environment.js` change `YOUR_FLOTIQ_API_KEY` to Read only Flotiq API key.
+    In `src/environments/environment.prod.ts`, in `src/environments/environment.ts` and in `src/environments/environment.js` change `YOUR_FLOTIQ_API_KEY` to Read only Flotiq API key.
         
-    If you wish to import example data into your account change `YOUR_FLOTIQ_API_KEY` on line 17 in `.flotiq/importExample.js` to Read and write API KEY.
-    
     Remember to change them back to `YOUR_FLOTIQ_API_KEY` before committing code to repository.
     
 1.  **Start developing**
@@ -47,15 +45,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
         cd scully-blog-starter/
         npm install
     ```
-    If you wish to import example blog posts to your account run:
+    If you wish to import example projects to your account install [flotiq-cli](https://github.com/flotiq/flotiq-cli), and run in project directory:
             
     ```sh
-        node ./.flotiq/importExample.js
+        flotiq import [flotiqApiKey] .
     ```
     
     It will add 1 image and 2 blog posts to your Flotiq account.
         
-    _Note: You need to put your Read and write API key in `src/environments/environment.js` for import to work. You don't need Blog Post content type in your account. If you already have posts with ids `blogpost-1` and `blogpost-2` they will be overwritten._
+    _Note: You need to put your Read and write API key as the `flotiqApiKey` for import to work. You don't need the `Blog Post` content type in your account. If you already have posts with ids `blogpost-1` and `blogpost-2` they will be overwritten._
 
     Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
