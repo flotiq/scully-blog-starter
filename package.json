@@ -24,7 +24,7 @@
     "@angular/router": "~9.1.9",
     "@scullyio/init": "0.0.28",
     "@scullyio/ng-lib": "^0.0.24",
-    "@scullyio/scully": "^0.0.98",
+    "@scullyio/scully": "^1.0.9",
     "flotiq": "file:flotiq",
     "rxjs": "~6.5.5",
     "scully-plugin-minify-html": "^2.4.1",
