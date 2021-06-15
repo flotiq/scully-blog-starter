@@ -12,6 +12,7 @@
         "properties": {
           "slug": {
             "type": "string",
+            "pattern": "^[a-zA-Z0-9-_]*$",
             "minLength": 1
           },
           "title": {
@@ -58,7 +59,7 @@
       "slug": {
         "label": "Slug",
         "unique": true,
-        "helpText": "",
+        "helpText": "Slug can only have alphanumerical characters, - and _",
         "inputType": "text"
       },
       "title": {
