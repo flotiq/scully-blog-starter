@@ -13,7 +13,7 @@ Screenshot
 
 <img src="https://github.com/flotiq/scully-blog-starter/raw/master/docs/flotiq-starter-blogposts.png" width=480 />
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7 and updated to version 13.0.2.
 
 ## Quick start
 
