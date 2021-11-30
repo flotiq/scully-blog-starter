@@ -1,5 +1,7 @@
 import { ScullyConfig } from '@scullyio/scully';
 import { environment } from './src/environments/environment';
+import '@scullyio/scully-plugin-puppeteer';
+
 export const config: ScullyConfig = {
   projectRoot: './src',
   projectName: 'scully-blog-starter',
