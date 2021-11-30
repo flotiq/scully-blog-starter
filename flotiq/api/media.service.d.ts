@@ -59,8 +59,8 @@ export declare class MediaService {
     postMedia(file: Blob, type: string, observe?: 'events', reportProgress?: boolean, options?: {
         httpHeaderAccept?: undefined;
     }): Observable<HttpEvent<any>>;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<MediaService, [null, { optional: true; }, { optional: true; }]>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<MediaService>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<MediaService, [null, { optional: true; }, { optional: true; }]>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<MediaService>;
 }
 
 //# sourceMappingURL=media.service.d.ts.map

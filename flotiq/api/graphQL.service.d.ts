@@ -52,8 +52,8 @@ export declare class GraphQLService {
     graphQLSchema(observe?: 'events', reportProgress?: boolean, options?: {
         httpHeaderAccept?: undefined;
     }): Observable<HttpEvent<any>>;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<GraphQLService, [null, { optional: true; }, { optional: true; }]>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<GraphQLService>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<GraphQLService, [null, { optional: true; }, { optional: true; }]>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<GraphQLService>;
 }
 
 //# sourceMappingURL=graphQL.service.d.ts.map

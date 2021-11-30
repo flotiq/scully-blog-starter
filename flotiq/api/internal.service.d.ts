@@ -99,8 +99,8 @@ export declare class InternalService {
     putContentDefinition(id: string, contentTypeDefinitionSchema?: ContentTypeDefinitionSchema, observe?: 'events', reportProgress?: boolean, options?: {
         httpHeaderAccept?: 'application/json';
     }): Observable<HttpEvent<ContentTypeDefinitionSchema>>;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<InternalService, [null, { optional: true; }, { optional: true; }]>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<InternalService>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<InternalService, [null, { optional: true; }, { optional: true; }]>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<InternalService>;
 }
 
 //# sourceMappingURL=internal.service.d.ts.map

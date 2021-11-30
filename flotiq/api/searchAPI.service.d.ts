@@ -47,8 +47,8 @@ export declare class SearchAPIService {
     search(q?: string, fields?: Array<string>, page?: string, limit?: string, orderBy?: string, orderDirection?: string, contentType?: Array<string>, aggregateBy?: Array<string>, filters?: object, postFilters?: object, observe?: 'events', reportProgress?: boolean, options?: {
         httpHeaderAccept?: 'application/json';
     }): Observable<HttpEvent<SearchResponse>>;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<SearchAPIService, [null, { optional: true; }, { optional: true; }]>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<SearchAPIService>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<SearchAPIService, [null, { optional: true; }, { optional: true; }]>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<SearchAPIService>;
 }
 
 //# sourceMappingURL=searchAPI.service.d.ts.map

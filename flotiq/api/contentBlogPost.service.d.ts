@@ -124,8 +124,8 @@ export declare class ContentBlogPostService {
     updateBlogpost(id: string, blogpostWithoutInternal?: BlogpostWithoutInternal, observe?: 'events', reportProgress?: boolean, options?: {
         httpHeaderAccept?: 'application/json';
     }): Observable<HttpEvent<Blogpost>>;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<ContentBlogPostService, [null, { optional: true; }, { optional: true; }]>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<ContentBlogPostService>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<ContentBlogPostService, [null, { optional: true; }, { optional: true; }]>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<ContentBlogPostService>;
 }
 
 //# sourceMappingURL=contentBlogPost.service.d.ts.map

@@ -124,8 +124,8 @@ export declare class ContentMediaService {
     updateMedia(id: string, mediaWithoutInternal?: MediaWithoutInternal, observe?: 'events', reportProgress?: boolean, options?: {
         httpHeaderAccept?: 'application/json';
     }): Observable<HttpEvent<Media>>;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<ContentMediaService, [null, { optional: true; }, { optional: true; }]>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<ContentMediaService>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<ContentMediaService, [null, { optional: true; }, { optional: true; }]>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<ContentMediaService>;
 }
 
 //# sourceMappingURL=contentMedia.service.d.ts.map
