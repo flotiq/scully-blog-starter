@@ -1413,8 +1413,9 @@ let ApiModule = ApiModule_1 = class ApiModule {
         };
     }
 };
+ApiModule.ɵfac = function ApiModule_Factory(t) { return new (t || ApiModule)(ɵngcc0.ɵɵinject(ApiModule, 12), ɵngcc0.ɵɵinject(ɵngcc1.HttpClient, 8)); };
 ApiModule.ɵmod = ɵngcc0.ɵɵdefineNgModule({ type: ApiModule });
-ApiModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ factory: function ApiModule_Factory(t) { return new (t || ApiModule)(ɵngcc0.ɵɵinject(ApiModule, 12), ɵngcc0.ɵɵinject(ɵngcc1.HttpClient, 8)); }, providers: [], imports: [[]] });
+ApiModule.ɵinj = ɵngcc0.ɵɵdefineInjector({ providers: [], imports: [[]] });
 ApiModule.ctorParameters = () => [
     { type: ApiModule, decorators: [{ type: Optional }, { type: SkipSelf }] },
     { type: HttpClient, decorators: [{ type: Optional }] }
@@ -1422,7 +1423,7 @@ ApiModule.ctorParameters = () => [
 ApiModule = ApiModule_1 = __decorate([ __param(0, Optional()), __param(0, SkipSelf()),
     __param(1, Optional())
 ], ApiModule);
-/*@__PURE__*/ (function () { ɵngcc0.ɵsetClassMetadata(ContentBlogPostService, [{
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ContentBlogPostService, [{
         type: Injectable,
         args: [{
                 providedIn: 'root'
@@ -1435,7 +1436,7 @@ ApiModule = ApiModule_1 = __decorate([ __param(0, Optional()), __param(0, SkipSe
             }] }, { type: Configuration, decorators: [{
                 type: Optional
             }] }]; }, null); })();
-/*@__PURE__*/ (function () { ɵngcc0.ɵsetClassMetadata(ContentMediaService, [{
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ContentMediaService, [{
         type: Injectable,
         args: [{
                 providedIn: 'root'
@@ -1448,7 +1449,7 @@ ApiModule = ApiModule_1 = __decorate([ __param(0, Optional()), __param(0, SkipSe
             }] }, { type: Configuration, decorators: [{
                 type: Optional
             }] }]; }, null); })();
-/*@__PURE__*/ (function () { ɵngcc0.ɵsetClassMetadata(GraphQLService, [{
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(GraphQLService, [{
         type: Injectable,
         args: [{
                 providedIn: 'root'
@@ -1461,7 +1462,7 @@ ApiModule = ApiModule_1 = __decorate([ __param(0, Optional()), __param(0, SkipSe
             }] }, { type: Configuration, decorators: [{
                 type: Optional
             }] }]; }, null); })();
-/*@__PURE__*/ (function () { ɵngcc0.ɵsetClassMetadata(InternalService, [{
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(InternalService, [{
         type: Injectable,
         args: [{
                 providedIn: 'root'
@@ -1474,7 +1475,7 @@ ApiModule = ApiModule_1 = __decorate([ __param(0, Optional()), __param(0, SkipSe
             }] }, { type: Configuration, decorators: [{
                 type: Optional
             }] }]; }, null); })();
-/*@__PURE__*/ (function () { ɵngcc0.ɵsetClassMetadata(MediaService, [{
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(MediaService, [{
         type: Injectable,
         args: [{
                 providedIn: 'root'
@@ -1487,7 +1488,7 @@ ApiModule = ApiModule_1 = __decorate([ __param(0, Optional()), __param(0, SkipSe
             }] }, { type: Configuration, decorators: [{
                 type: Optional
             }] }]; }, null); })();
-/*@__PURE__*/ (function () { ɵngcc0.ɵsetClassMetadata(SearchAPIService, [{
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SearchAPIService, [{
         type: Injectable,
         args: [{
                 providedIn: 'root'
@@ -1500,7 +1501,7 @@ ApiModule = ApiModule_1 = __decorate([ __param(0, Optional()), __param(0, SkipSe
             }] }, { type: Configuration, decorators: [{
                 type: Optional
             }] }]; }, null); })();
-/*@__PURE__*/ (function () { ɵngcc0.ɵsetClassMetadata(ApiModule, [{
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(ApiModule, [{
         type: NgModule,
         args: [{
                 imports: [],
