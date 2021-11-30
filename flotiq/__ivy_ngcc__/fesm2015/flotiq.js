@@ -379,7 +379,7 @@ let ContentBlogPostService = class ContentBlogPostService {
     }
 };
 ContentBlogPostService.ɵfac = function ContentBlogPostService_Factory(t) { return new (t || ContentBlogPostService)(ɵngcc0.ɵɵinject(ɵngcc1.HttpClient), ɵngcc0.ɵɵinject(BASE_PATH, 8), ɵngcc0.ɵɵinject(Configuration, 8)); };
-ContentBlogPostService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ContentBlogPostService, factory: ContentBlogPostService.ɵfac, providedIn: 'root' });
+ContentBlogPostService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ContentBlogPostService, factory: function (t) { return ContentBlogPostService.ɵfac(t); }, providedIn: 'root' });
 ContentBlogPostService.ctorParameters = () => [
     { type: HttpClient },
     { type: String, decorators: [{ type: Optional }, { type: Inject, args: [BASE_PATH,] }] },
@@ -677,7 +677,7 @@ let ContentMediaService = class ContentMediaService {
     }
 };
 ContentMediaService.ɵfac = function ContentMediaService_Factory(t) { return new (t || ContentMediaService)(ɵngcc0.ɵɵinject(ɵngcc1.HttpClient), ɵngcc0.ɵɵinject(BASE_PATH, 8), ɵngcc0.ɵɵinject(Configuration, 8)); };
-ContentMediaService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ContentMediaService, factory: ContentMediaService.ɵfac, providedIn: 'root' });
+ContentMediaService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: ContentMediaService, factory: function (t) { return ContentMediaService.ɵfac(t); }, providedIn: 'root' });
 ContentMediaService.ctorParameters = () => [
     { type: HttpClient },
     { type: String, decorators: [{ type: Optional }, { type: Inject, args: [BASE_PATH,] }] },
@@ -802,7 +802,7 @@ let GraphQLService = class GraphQLService {
     }
 };
 GraphQLService.ɵfac = function GraphQLService_Factory(t) { return new (t || GraphQLService)(ɵngcc0.ɵɵinject(ɵngcc1.HttpClient), ɵngcc0.ɵɵinject(BASE_PATH, 8), ɵngcc0.ɵɵinject(Configuration, 8)); };
-GraphQLService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: GraphQLService, factory: GraphQLService.ɵfac, providedIn: 'root' });
+GraphQLService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: GraphQLService, factory: function (t) { return GraphQLService.ɵfac(t); }, providedIn: 'root' });
 GraphQLService.ctorParameters = () => [
     { type: HttpClient },
     { type: String, decorators: [{ type: Optional }, { type: Inject, args: [BASE_PATH,] }] },
@@ -1033,7 +1033,7 @@ let InternalService = class InternalService {
     }
 };
 InternalService.ɵfac = function InternalService_Factory(t) { return new (t || InternalService)(ɵngcc0.ɵɵinject(ɵngcc1.HttpClient), ɵngcc0.ɵɵinject(BASE_PATH, 8), ɵngcc0.ɵɵinject(Configuration, 8)); };
-InternalService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: InternalService, factory: InternalService.ɵfac, providedIn: 'root' });
+InternalService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: InternalService, factory: function (t) { return InternalService.ɵfac(t); }, providedIn: 'root' });
 InternalService.ctorParameters = () => [
     { type: HttpClient },
     { type: String, decorators: [{ type: Optional }, { type: Inject, args: [BASE_PATH,] }] },
@@ -1198,7 +1198,7 @@ let MediaService = class MediaService {
     }
 };
 MediaService.ɵfac = function MediaService_Factory(t) { return new (t || MediaService)(ɵngcc0.ɵɵinject(ɵngcc1.HttpClient), ɵngcc0.ɵɵinject(BASE_PATH, 8), ɵngcc0.ɵɵinject(Configuration, 8)); };
-MediaService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: MediaService, factory: MediaService.ɵfac, providedIn: 'root' });
+MediaService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: MediaService, factory: function (t) { return MediaService.ɵfac(t); }, providedIn: 'root' });
 MediaService.ctorParameters = () => [
     { type: HttpClient },
     { type: String, decorators: [{ type: Optional }, { type: Inject, args: [BASE_PATH,] }] },
@@ -1328,7 +1328,7 @@ let SearchAPIService = class SearchAPIService {
     }
 };
 SearchAPIService.ɵfac = function SearchAPIService_Factory(t) { return new (t || SearchAPIService)(ɵngcc0.ɵɵinject(ɵngcc1.HttpClient), ɵngcc0.ɵɵinject(BASE_PATH, 8), ɵngcc0.ɵɵinject(Configuration, 8)); };
-SearchAPIService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: SearchAPIService, factory: SearchAPIService.ɵfac, providedIn: 'root' });
+SearchAPIService.ɵprov = ɵngcc0.ɵɵdefineInjectable({ token: SearchAPIService, factory: function (t) { return SearchAPIService.ɵfac(t); }, providedIn: 'root' });
 SearchAPIService.ctorParameters = () => [
     { type: HttpClient },
     { type: String, decorators: [{ type: Optional }, { type: Inject, args: [BASE_PATH,] }] },
