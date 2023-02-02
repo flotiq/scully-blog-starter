@@ -22,7 +22,7 @@
     "@angular/platform-browser": "^13.0.2",
     "@angular/platform-browser-dynamic": "^13.0.2",
     "@angular/router": "^13.0.2",
-    "@scullyio/init": "^1.1.4",
+    "@scullyio/init": "^2.1.41",
     "@scullyio/ng-lib": "^1.1.1",
     "@scullyio/scully": "^2.0.3",
     "@scullyio/scully-plugin-puppeteer": "^2.0.1",
