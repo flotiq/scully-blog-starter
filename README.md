@@ -2,6 +2,8 @@
     <img src="https://editor.flotiq.com/fonts/fq-logo.svg" alt="Flotiq logo" title="Flotiq" align="right" height="60" />
 </a>
 
+We no longer support Scully integration due to low interest from our users. Pull requests are welcome.
+
 Scully Starter - Blog
 ========================
 
